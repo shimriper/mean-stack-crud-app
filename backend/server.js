@@ -45,8 +45,8 @@ app.use((req, res, next) => {
 });
 
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'dist/mean-stack-crud-app')));
-app.use('/', express.static(path.join(__dirname, 'dist/mean-stack-crud-app')));
+app.use(express.static(path.join(__dirname, '../dist/mean-stack-crud-app')));
+app.use('/', express.static(path.join(__dirname, '../dist/mean-stack-crud-app')));
 app.use("/api/user", userRoutes);
 app.use("/api/shifts", shiftsRoutes);
 app.use("/api/weeks", weeksRoutes);
