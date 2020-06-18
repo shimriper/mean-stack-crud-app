@@ -19,7 +19,13 @@
     "@angular/platform-browser": "~9.1.11",
     "@angular/platform-browser-dynamic": "~9.1.11",
     "@angular/router": "~9.1.11",
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "bootstrap": "^4.5.0",
+    "bulma": "^0.9.0",
+    "jquery": "^3.5.1",
+    "moment": "^2.26.0",
     "rxjs": "~6.5.4",
+    "sweetalert2": "^9.15.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
